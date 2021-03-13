@@ -1,12 +1,12 @@
 {
   "name": "w-queryfy",
   "version": "1.0.0",
-  "description": "<p align=\"center\">     <h1>This is the simplest methods for parse and stringify query with filter undefined values and convert types</h1> </p>",
+  "description": "Stringify and parse query",
   "main": "public/query.ts",
   "scripts": {
-    "babel:run": "babel src --out-dir public1"
+    "build": "tsc"
   },
-  "keywords": [],
+  "keywords": ["query"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
