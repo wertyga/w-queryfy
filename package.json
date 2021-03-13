@@ -1,0 +1,24 @@
+{
+  "name": "w-queryfy",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">     <h1>This is the simplest methods for parse and stringify query with filter undefined values and convert types</h1> </p>",
+  "main": "public/query.ts",
+  "scripts": {
+    "babel:run": "babel src --out-dir public1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/plugin-proposal-decorators": "^7.13.5",
+    "@babel/plugin-transform-typescript": "^7.13.0",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-typescript": "^7.13.0"
+  },
+  "dependencies": {},
+  "types": "public/query.d.ts",
+  "prepublish": "tsc"
+}
