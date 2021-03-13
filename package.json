@@ -1,6 +1,6 @@
 {
   "name": "w-queryfy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stringify and parse query",
   "main": "public/query.ts",
   "scripts": {
